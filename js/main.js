@@ -7,8 +7,8 @@ let ctx = canvas.getContext("2d");
 /**
  * Obtiene las dimensiones actuales de la ventana del navegador.
  */
-const window_height = /* 300; */ window.innerHeight * 0.9;
-const window_width = /* 300; */window.innerWidth * 0.9;
+const window_height = /* 300; */window.innerHeight * 0.65;
+const window_width = /* 300; */window.innerWidth <= 500? window.innerWidth * .9 : window.innerWidth * 0.65;
 
 // Ajusta el tamaño del canvas para que coincida con la pantalla
 canvas.height = window_height;

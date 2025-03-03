@@ -12,9 +12,24 @@
     <title>POO con Canvas</title>
 </head>
 
-<body class="d-flex justify-content-center align-items-center" style="height: 100vh">
+<body class="d-flex flex-column justify-content-between" style="height: 100vh">
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Introducción a las animaciones 2D</a>
+        </div>
+    </nav>
+
     <!-- Elemento canvas donde se dibujarán los círculos animados -->
-    <canvas id="canvas" class="border border-dark"></canvas>
+    <div class="d-flex justify-content-center">
+        <canvas id="canvas" class="border border-dark"></canvas>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-2 mt-5">
+        <p class="pt-3">&copy; 2025. Todos los derechos reservados | Victor López</p>
+    </footer>
 
     <!-- Enlace al archivo JavaScript que contiene la lógica del canvas -->
     <script src="js/main.js"></script>
